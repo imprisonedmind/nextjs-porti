@@ -1,4 +1,4 @@
-import WorksCard from "../../comps/WorksCard/WorksCard.js";
+import WorksCard from "../../comps/worksCard/WorksCard.js";
 import Navbar from "../../comps/nav/Navbar.js";
 import Footer from "../../pages/footer/footer.js";
 import styles from "../myWork/myWork.module.scss";
