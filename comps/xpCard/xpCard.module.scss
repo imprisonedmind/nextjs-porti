@@ -19,7 +19,7 @@
     height: 30%;
     width: 60%;
     margin: 0;
-    font-size: 18px;
+    font-size: 1vw;
     font-style: SofiaProSoft;
   }
 
@@ -29,8 +29,14 @@
     justify-content: flex-end;
     width: 100%;
     margin: 0;
-    font-size: 12px;
+    font-size: 0.6vw;
     font-style: SofiaProSoft;
+  }
+
+  p {
+    font-size: 0.85vw;
+    margin: 0;
+    padding: 0;
   }
 }
 

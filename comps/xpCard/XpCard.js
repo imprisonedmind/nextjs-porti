@@ -14,10 +14,9 @@ export default function XpCard(props) {
           <h2>{props.date}</h2>
           <h2>{props.place}</h2>
         </div>
-        {props.desc}
-        <br></br>
-        <br></br>
-        {props.desc2}
+        <p>{props.desc}</p>
+        <p>{props.desc2}</p>
+        
       </div>
     </div>
   );
