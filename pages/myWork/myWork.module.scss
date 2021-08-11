@@ -1,0 +1,56 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+.contentCon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8% 8% 10% 8%;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 5%;
+    width: 100%;
+    font-family: SofiaProSoft;
+}
+
+.mainLine {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+    max-width: 100%;
+    padding: 2% 0 2% 0;
+    // margin-top: 50px;
+}
+
+.workLine {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+}
+
+#LastLine {
+    margin-bottom: 100px;
+}
+
+.more {
+    opacity: 0.3;
+}

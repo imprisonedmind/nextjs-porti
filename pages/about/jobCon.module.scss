@@ -1,0 +1,23 @@
+.cardCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    padding: 5% 8% 2% 8%;
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+
+.titleCon {
+    height: auto;
+    width: 100%;
+
+    h1 {
+        font-family: SofiaProSoft;
+        text-align: center;
+        font-size: 48px;
+    }
+}

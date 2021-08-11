@@ -1,0 +1,127 @@
+.Main {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+  border-top: 1px solid rgba(22, 21, 21, 0.027);
+  border-bottom: 1px solid rgba(22, 21, 21, 0.027);
+  background-color: #fff;
+}
+
+.headerCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 700px;
+  margin: auto;
+  padding-top: 100px;
+
+  h1 {
+    height: 60%;
+    font-size: 40px;
+    font-family: SofiaProSoft;
+    margin: 0;
+  }
+
+  p {
+    height: 40%;
+    font-size: 22px;
+    font-family: SofiaPro;
+    margin: 0;
+    padding-top: 60px;
+    color: #6e6e74;
+  }
+}
+
+.workCardCon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+  margin: 100px 0 0 0;
+  padding: 5% 20% 0 20%;
+  
+}
+
+.discover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 380px;
+  margin-bottom: 100px;
+}
+
+.discoverCon:hover {
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.061);
+
+    .arrow {
+        transform: translateX(3px);
+    }
+}
+
+.discoverCon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 4% 0 4%;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+  }
+
+.newBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:25px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: #8c50ce;
+
+    h1 {
+      font-family: SofiaPro;
+      font-size: 14px;
+      font-weight: 100;
+      letter-spacing: 1px;
+      color: #fff;
+      margin: 0;
+    }
+  }
+
+.pDiscover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+  font-family: SofiaPro;
+  font-size: 26px;
+  color: #8c50ce;
+  height: 100%;
+  width: 70%;
+  margin: 0;
+  padding: 0 0 3px 0;
+}
+
+.arrow {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  padding: 3px 0;
+  transition: 0.3s ease-in-out;
+
+  img {
+      object-fit: contain;
+  }
+}
+
+

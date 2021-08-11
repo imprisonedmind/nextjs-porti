@@ -1,0 +1,75 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    max-width: 1920px;
+    overflow: hidden;
+}
+
+.aboutCon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    padding: 5% 8% 2% 8%;
+    background-color: #fcfcfc;
+    border-bottom: 1px solid rgba(22, 21, 21, 0.027);
+}
+
+.CoverImg:hover {
+    transform: scale(1.02);
+}
+
+.CoverImg {
+    position: relative;
+    height: 750px;
+    width: 40%;
+    border-radius: 30px;
+    background-color: grey;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background: linear-gradient(270deg, #ffffff, #979797, #ffffff);
+    background-size: 600% 600%;
+    animation: AnimationName 4s ease infinite;
+
+    img {
+        object-fit: cover;
+    }
+}
+
+.about {
+    width: 50%;
+    height: 100%;
+    padding: 2% 0 4% 0;
+
+    h1 {
+        font-family: SofiaProSoft;
+        font-size: 75px;
+        margin: 0;
+
+        span {
+            color:#8C50CE;  
+        }
+    }
+
+    p {
+        height: auto;
+        width: 100%;
+        font-family: SofiaPro;
+        font-size: 24px;
+        font-weight: 80;
+        color: #6E6E74;
+    }
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+

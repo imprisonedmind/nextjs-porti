@@ -1,0 +1,123 @@
+.main {
+    height: 900px;
+    width: 100%;
+    padding: 5% 8% 5% 8%;
+}
+
+.cardCon {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px -2px rgba(11, 0, 23, 0.089);
+    transition: 0.3s ease-in-out;
+}
+
+.cardCon:hover {
+    transform: scale(1.01);
+}
+
+
+.skillsTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+
+    h1 {
+        font-family: SofiaProSoft;
+        font-size: 40px;
+    }
+}
+
+.skillType {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85%;
+    width: 100%;
+}
+
+.skillTypeCon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 30%;
+    padding: 0 5% 2% 5%;
+
+    h1 {
+        font-family: SofiaProSoft;
+        font-size: 30px;
+        width: 100%;
+        margin: 0;
+    }
+
+    p {
+        width: 100%;
+    }
+}
+
+.softCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    div:nth-child(1) {
+        position: relative;
+        height: 30px;
+        width: 30px;
+
+        img {
+            object-fit: contain !important;
+        }
+    }
+
+    div:nth-child(2) {
+        height: 20px;
+        width: 80%;
+        border-radius: 30px;
+        background-color: rgba(22, 22, 22, 0.089);
+
+        div {
+            height: 100%;
+            width: 80%;
+            border-radius: 30px;
+            background-color: #8C50CE;
+        }
+    }
+}
+
+#W90 {
+    width: 90%;
+}
+
+#W80 {
+    width: 80%;
+}
+
+#W60 {
+    width: 60%;
+}
+
+#W40 {
+    width: 40%;
+}
+
+#W50 {
+    width: 50%;
+}
+
+#W30 {
+    width: 30%;
+}
+
+#W20 {
+    width: 20%;
+}
+
+#W10 {
+    width: 10%;
+}

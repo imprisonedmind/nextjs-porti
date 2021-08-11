@@ -1,0 +1,55 @@
+.cardCon {
+    display: flex;
+    position: relative;
+    height: 550px;
+    width: 500px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 15px -6px rgba(11,0,23,0.51);
+    background: linear-gradient(270deg, #ffffff, #979797, #ffffff);
+    background-size: 600% 600%;
+    animation: AnimationName 4s ease infinite;
+}
+
+.cardCon:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+
+    .logo {
+        transform: translateY(-5px);
+    }
+}
+
+
+
+.img {
+    position: relative !important;
+    object-fit: cover;
+    z-index: 1 !important;
+
+}
+
+.logo {
+    display: flex;
+    align-self: flex-end;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin: 0 0 20px 20px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;  
+    z-index: 5;
+    img {
+        object-fit: contain !important;
+        
+    }
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+  }
+
