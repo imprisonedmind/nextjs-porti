@@ -10,9 +10,9 @@ export default function myWork() {
 
       <div className={styles.contentCon}>
         <WorksCard
-          Img="/../public/images/erin-phone.png"
+          Img="/images/erin-phone.png"
           alt="Erin mobile UI"
-          LogoImg="/../public/images/logos/xd.png"
+          LogoImg="/images/logos/xd.png"
           LogoAlt=""
           title="Erin"
           title2="UI/UX"
@@ -20,9 +20,9 @@ export default function myWork() {
         ></WorksCard>
 
         <WorksCard
-          Img="/../public/images/lockdown.png"
+          Img="/images/lockdown.png"
           alt="The Great Lockdown"
-          LogoImg="/../public/images/logos/ae.png"
+          LogoImg="/images/logos/ae.png"
           LogoAlt=""
           title="The Great Lockdown"
           title2="ANIMATION"
@@ -30,9 +30,9 @@ export default function myWork() {
         ></WorksCard>
 
         <WorksCard
-          Img="/../public/images/wallpaper.png"
+          Img="/images/wallpaper.png"
           alt="Acid Mage"
-          LogoImg="/../public/images/logos/unity.png"
+          LogoImg="/images/logos/unity.png"
           LogoAlt=""
           title="Acid Mage"
           title2="GAME DESIGN"
@@ -40,18 +40,18 @@ export default function myWork() {
         ></WorksCard>
 
         <WorksCard
-          Img="/../public/images/logo-mock.png"
+          Img="/images/logo-mock.png"
           alt="Instafamous project animation"
-          LogoImg="/../public/images/logos/ae.png"
+          LogoImg="/images/logos/ae.png"
           LogoAlt=""
           title="Instafamous"
           title2="ANIMATION"
           desc="This animation was a uni project in which we were tasked with doing a logo reveal."
         ></WorksCard>
         <WorksCard
-          Img="/../public/images/2.png"
+          Img="/images/2.png"
           alt="Blink and Sqeeki"
-          LogoImg="/../public/images/logos/ae.png"
+          LogoImg="/images/logos/ae.png"
           LogoAlt=""
           title="Blinki and Sqeeki"
           title2="ANIMATION"
@@ -59,36 +59,36 @@ export default function myWork() {
         ></WorksCard>
 
         <WorksCard
-          Img="/../public/images/skateboard.png"
+          Img="/images/skateboard.png"
           alt="Luke Stephens Skateboarder"
-          LogoImg="/../public/images/logos/blender.png"
+          LogoImg="/images/logos/blender.png"
           LogoAlt=""
           title="Skateboard dude"
           title2="3D"
           desc="A simple character created for my personal branding."
         ></WorksCard>
         <WorksCard
-          Img="/../public/images/coverLeft.png"
+          Img="/images/coverLeft.png"
           alt="Luke Stephens welcome and laptop"
-          LogoImg="/../public/images/logos/blender.png"
+          LogoImg="/images/logos/blender.png"
           LogoAlt=""
           title="Laptop wave"
           title2="3D"
           desc="A simple character created for my personal branding."
         ></WorksCard>
         <WorksCard
-          Img="/../public/images/read.png"
+          Img="/images/read.png"
           alt="Luke Stephens character reading"
-          LogoImg="/../public/images/logos/blender.png"
+          LogoImg="/images/logos/blender.png"
           LogoAlt=""
           title="Reading"
           title2="3D"
           desc="A simple character created for my personal branding."
         ></WorksCard>
         <WorksCard
-          Img="/../public/images/education.jpg"
+          Img="/images/education.jpg"
           alt="Luke Stephens education character"
-          LogoImg="/../public/images/logos/blender.png"
+          LogoImg="/images/logos/blender.png"
           LogoAlt=""
           title="Education"
           title2="3D"
