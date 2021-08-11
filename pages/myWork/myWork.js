@@ -10,9 +10,9 @@ export default function myWork() {
 
       <div className={styles.contentCon}>
         <WorksCard
-          Img="/images/erin-phone.png"
+          Img="/Images/erin-phone.png"
           alt="Erin mobile UI"
-          LogoImg="/images/logos/xd.png"
+          LogoImg="/Images/logos/xd.png"
           LogoAlt=""
           title="Erin"
           title2="UI/UX"
@@ -20,9 +20,9 @@ export default function myWork() {
         ></WorksCard>
 
         <WorksCard
-          Img="/images/lockdown.png"
+          Img="/Images/lockdown.png"
           alt="The Great Lockdown"
-          LogoImg="/images/logos/ae.png"
+          LogoImg="/Images/logos/ae.png"
           LogoAlt=""
           title="The Great Lockdown"
           title2="ANIMATION"
@@ -30,9 +30,9 @@ export default function myWork() {
         ></WorksCard>
 
         <WorksCard
-          Img="/images/wallpaper.png"
+          Img="/Images/wallpaper.png"
           alt="Acid Mage"
-          LogoImg="/images/logos/unity.png"
+          LogoImg="/Images/logos/unity.png"
           LogoAlt=""
           title="Acid Mage"
           title2="GAME DESIGN"
@@ -40,18 +40,18 @@ export default function myWork() {
         ></WorksCard>
 
         <WorksCard
-          Img="/images/logo-mock.png"
+          Img="/Images/logo-mock.png"
           alt="Instafamous project animation"
-          LogoImg="/images/logos/ae.png"
+          LogoImg="/Images/logos/ae.png"
           LogoAlt=""
           title="Instafamous"
           title2="ANIMATION"
           desc="This animation was a uni project in which we were tasked with doing a logo reveal."
         ></WorksCard>
         <WorksCard
-          Img="/images/2.png"
+          Img="/Images/2.png"
           alt="Blink and Sqeeki"
-          LogoImg="/images/logos/ae.png"
+          LogoImg="/Images/logos/ae.png"
           LogoAlt=""
           title="Blinki and Sqeeki"
           title2="ANIMATION"
@@ -59,36 +59,36 @@ export default function myWork() {
         ></WorksCard>
 
         <WorksCard
-          Img="/images/skateboard.png"
+          Img="/Images/skateboard.png"
           alt="Luke Stephens Skateboarder"
-          LogoImg="/images/logos/blender.png"
+          LogoImg="/Images/logos/blender.png"
           LogoAlt=""
           title="Skateboard dude"
           title2="3D"
           desc="A simple character created for my personal branding."
         ></WorksCard>
         <WorksCard
-          Img="/images/coverLeft.png"
+          Img="/Images/coverLeft.png"
           alt="Luke Stephens welcome and laptop"
-          LogoImg="/images/logos/blender.png"
+          LogoImg="/Images/logos/blender.png"
           LogoAlt=""
           title="Laptop wave"
           title2="3D"
           desc="A simple character created for my personal branding."
         ></WorksCard>
         <WorksCard
-          Img="/images/read.png"
+          Img="/Images/read.png"
           alt="Luke Stephens character reading"
-          LogoImg="/images/logos/blender.png"
+          LogoImg="/Images/logos/blender.png"
           LogoAlt=""
           title="Reading"
           title2="3D"
           desc="A simple character created for my personal branding."
         ></WorksCard>
         <WorksCard
-          Img="/images/education.jpg"
+          Img="/Images/education.jpg"
           alt="Luke Stephens education character"
-          LogoImg="/images/logos/blender.png"
+          LogoImg="/Images/logos/blender.png"
           LogoAlt=""
           title="Education"
           title2="3D"
