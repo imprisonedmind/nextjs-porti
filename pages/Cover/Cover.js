@@ -47,7 +47,7 @@ export default function Cover(props) {
           <div className={styles.social}>
             <Image
               className={styles.icon}
-              src="/images/email.png"
+              src="/Images/email.png"
               alt="Picture of the author"
               height="38px"
               width="38px"
