@@ -18,7 +18,7 @@ export default function Cover(props) {
         <div className={styles.leftImg}>
           <Image
             className={styles.image}
-            src="/../images/coverLeft.png"
+            src="../images/coverLeft.png"
             alt="Picture of the author"
             layout="fill"
           ></Image>
