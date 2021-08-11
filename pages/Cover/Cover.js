@@ -18,7 +18,7 @@ export default function Cover(props) {
         <div className={styles.leftImg}>
           <Image
             className={styles.image}
-            src="../images/coverLeft.png"
+            src="/Images/coverLeft.png"
             alt="Picture of the author"
             layout="fill"
           ></Image>
@@ -47,7 +47,7 @@ export default function Cover(props) {
           <div className={styles.social}>
             <Image
               className={styles.icon}
-              src="/../public/images/email.png"
+              src="/images/email.png"
               alt="Picture of the author"
               height="38px"
               width="38px"
@@ -56,7 +56,7 @@ export default function Cover(props) {
           <div className={styles.social}>
             <Image
               className={styles.icon}
-              src="/../public/images/linkedin.png"
+              src="/Images/linkedin.png"
               alt="Picture of the author"
               height="38px"
               width="38px"
@@ -65,7 +65,7 @@ export default function Cover(props) {
           <div className={styles.social}>
             <Image
               className={styles.icon}
-              src="/../public/images/behance.png"
+              src="/Images/behance.png"
               alt="Picture of the author"
               height="38px"
               width="38px"
@@ -74,7 +74,7 @@ export default function Cover(props) {
           <div className={styles.social}>
             <Image
               className={styles.icon}
-              src="/../public/images/dribbble.png"
+              src="/Images/dribbble.png"
               alt="Picture of the author"
               height="38px"
               width="38px"
