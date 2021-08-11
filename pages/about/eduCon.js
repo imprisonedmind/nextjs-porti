@@ -40,7 +40,7 @@ export default function EduCon() {
           </div>
 
           <div className={styles.imgCon}>
-            <Image src="/../public/images/luke.jpg" layout="fill"></Image>
+            <Image src="/Images/luke.jpg" layout="fill"></Image>
           </div>
         </div>
       </div>

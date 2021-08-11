@@ -13,7 +13,7 @@ export default function About() {
       <div className={styles.aboutCon}>
         <div className={styles.CoverImg}>
           <Image
-            src="/../public/images/skateboard.png"
+            src="/Images/skateboard.png"
             layout="fill"
             quality="100"
           ></Image>

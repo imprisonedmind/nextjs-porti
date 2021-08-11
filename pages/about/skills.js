@@ -28,7 +28,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/ae.svg"
+                  src="/Images/logos/ae.svg"
                   layout="fill"
                 ></Image>
               </div>
@@ -40,7 +40,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/xd.png"
+                  src="/Images/logos/xd.png"
                   layout="fill"
                 ></Image>
               </div>
@@ -52,7 +52,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/ai.svg"
+                  src="/Images/logos/ai.svg"
                   layout="fill"
                 ></Image>
               </div>
@@ -64,7 +64,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/photo.svg"
+                  src="/Images/logos/photo.svg"
                   layout="fill"
                 ></Image>
               </div>
@@ -76,7 +76,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/apr.svg"
+                  src="/Images/logos/apr.svg"
                   layout="fill"
                 ></Image>
               </div>
@@ -88,7 +88,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/blender.png"
+                  src="/Images/logos/blender.png"
                   layout="fill"
                 ></Image>
               </div>
@@ -100,7 +100,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/cinema.png"
+                  src="/Images/logos/cinema.png"
                   layout="fill"
                 ></Image>
               </div>
@@ -112,7 +112,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/figma.png"
+                  src="/Images/logos/figma.png"
                   layout="fill"
                 ></Image>
               </div>
@@ -124,7 +124,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/framer.png"
+                  src="/Images/logos/framer.png"
                   layout="fill"
                 ></Image>
               </div>
@@ -136,7 +136,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/invision.svg"
+                  src="/Images/logos/invision.svg"
                   layout="fill"
                 ></Image>
               </div>
@@ -153,7 +153,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/html.svg"
+                  src="/Images/logos/html.svg"
                   layout="fill"
                 ></Image>
               </div>
@@ -165,7 +165,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/css.svg"
+                  src="/Images/logos/css.svg"
                   layout="fill"
                 ></Image>
               </div>
@@ -177,7 +177,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/sass.svg"
+                  src="/Images/logos/sass.svg"
                   layout="fill"
                 ></Image>
               </div>
@@ -189,7 +189,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/tail.svg"
+                  src="/Images/logos/tail.svg"
                   layout="fill"
                 ></Image>
               </div>
@@ -201,7 +201,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/boot.svg"
+                  src="/Images/logos/boot.svg"
                   layout="fill"
                 ></Image>
               </div>
@@ -213,7 +213,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/js.svg"
+                  src="/Images/logos/js.svg"
                   layout="fill"
                 ></Image>
               </div>
@@ -225,7 +225,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/c.svg"
+                  src="/Images/logos/c.svg"
                   layout="fill"
                 ></Image>
               </div>
@@ -239,7 +239,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/angular.png"
+                  src="/Images/logos/angular.png"
                   layout="fill"
                 ></Image>
               </div>
@@ -251,7 +251,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/gatbsy.png"
+                  src="/Images/logos/gatbsy.png"
                   layout="fill"
                 ></Image>
               </div>
@@ -263,7 +263,7 @@ export default function Skills() {
             <div className={styles.softCon}>
               <div>
                 <Image
-                  src="/../public/images/logos/next-js.svg"
+                  src="/Images/logos/next-js.svg"
                   layout="fill"
                 ></Image>
               </div>

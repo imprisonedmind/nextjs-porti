@@ -14,33 +14,33 @@ export default function Work() {
 
       <div className={styles.workCardCon}>
         <WorkCard
-          img="/../public/images/erin-phone.png"
+          img="/Images/erin-phone.png"
           alt="Test about the image"
-          logo="/../public/images/logos/xd.png"
+          logo="/Images/logos/xd.png"
           logoAlt=""
         ></WorkCard>
 
         <a href="https://youtu.be/uiWCEWqaYfY" target="_blank">
         <WorkCard
-          img="/../public/images/lockdown.png"
+          img="/Images/lockdown.png"
           alt="Test about the image"
-          logo="/../public/images/logos/ae.png"
+          logo="/Images/logos/ae.png"
           logoAlt=""
         ></WorkCard>
         </a>
 
 
         <WorkCard
-          img="/../public/images/screenshot.jpg"
+          img="/Images/screenshot.jpg"
           alt="Test about the image"
-          logo="/../public/images/logos/xd.png"
+          logo="/Images/logos/xd.png"
           logoAlt=""
         ></WorkCard>
 
         <WorkCard
-          img="/../public/images/homie.png"
+          img="/Images/homie.png"
           alt="Test about the image"
-          logo="/../public/images/logos/blender.png"
+          logo="/Images/logos/blender.png"
           logoAlt=""  
         ></WorkCard>
       </div>
@@ -52,7 +52,7 @@ export default function Work() {
           <p className={styles.pDiscover}>Explore more works</p>
           <div className={styles.arrow}>
             <Image
-              src="/../public/images/arrow.png"
+              src="/Images/arrow.png"
               layout="fill"
             ></Image>
           </div>

@@ -27,7 +27,7 @@ export default function Footer() {
 
             <div className={styles.middleDiv}>
                 <Image
-                    src="/../public/images/feet.png"
+                    src="/Images/feet.png"
                     layout="fill"
                 ></Image>
             </div>

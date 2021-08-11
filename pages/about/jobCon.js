@@ -9,7 +9,7 @@ export default function EduCon() {
         <h1>Work Experience</h1>
       </div>
       <XpCard
-        img="/../public/images/xp/lf3.jpeg"
+        img="/Images/xp/lf3.jpeg"
         alt="Lingue Sinze Frontiere"
         title="Lingue Senza Frontiere"
         date="June 2021 - July 2021"
@@ -18,7 +18,7 @@ export default function EduCon() {
         desc2="My role as a tutor was to teach a class of 12-15 Italian kids the basics of english through the use of songs, games and dances."
       ></XpCard>
       <XpCard
-        img="/../public/images/xp/cc.jpg"
+        img="/Images/xp/cc.jpg"
         alt="Lingue Sinze Frontiere"
         title="Caffiene Club"
         date="March 2021 - April 2021"
@@ -27,7 +27,7 @@ export default function EduCon() {
         desc2="I also did general clean up of the restaurant: washing dishes, cleaning toilets and tables, vacuuming the floor."
       ></XpCard>
       <XpCard
-        img="/../public/images/xp/specno2.jpg"
+        img="/Images/xp/specno2.jpg"
         alt="Lingue Sinze Frontiere"
         title="Specno"
         date="June 2019 - Sep 2020"
@@ -36,7 +36,7 @@ export default function EduCon() {
         desc2="Worked within the company in start-up phase, thus working in many avenues such as Graphic Design, Web Development and UI/UX Systems."
       ></XpCard>
       <XpCard
-        img="/../public/images/xp/futa.png"
+        img="/Images/xp/futa.png"
         alt="Lingue Sinze Frontiere"
         title="Futa Cash"
         date="Aug 2019 - Nov 2019"
@@ -45,7 +45,7 @@ export default function EduCon() {
         desc2="Designed the user interface for a mobile payment processing application."
       ></XpCard>
       <XpCard
-        img="/../public/images/xp/ginos.png"
+        img="/Images/xp/ginos.png"
         alt="Lingue Sinze Frontiere"
         title="Ginos"
         date="Dec 2018 - June -2019"
@@ -54,7 +54,7 @@ export default function EduCon() {
         desc2="I mainly worked as a pizza delivery driver and would do meet and greet whilst waiting in between deliveries."
       ></XpCard>
       <XpCard
-        img="/../public/images/xp/fg.png"
+        img="/Images/xp/fg.png"
         alt="Lingue Sinze Frontiere"
         title="Footgear"
         date="June 2017 - Jul 2017"

@@ -8,7 +8,7 @@ export default function BlogBlock() {
       <div className={styles.blogCon}>
         <div className={styles.imgCon}>
           <Image 
-          src="/../public/images/read.png" 
+          src="/Images/read.png" 
           layout="fill"
           quality="100">
           </Image>

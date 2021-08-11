@@ -32,7 +32,7 @@ export default function menu() {
               <li>
                 <div>
                   <Image
-                    src="/../public/images/emojis/student.png"
+                    src="/Images/emojis/student.png"
                     layout="fill"
                   ></Image>
                 </div>
@@ -43,7 +43,7 @@ export default function menu() {
               <li>
                 <div>
                   <Image
-                    src="/../public/images/emojis/mac.png"
+                    src="/Images/emojis/mac.png"
                     layout="fill"
                   ></Image>
                 </div>
@@ -55,7 +55,7 @@ export default function menu() {
              
                 <div>
                   <Image
-                    src="/../public/images/emojis/book.png"
+                    src="/Images/emojis/book.png"
                     layout="fill"
                   ></Image>
                 </div>
@@ -67,7 +67,7 @@ export default function menu() {
               <li>
                 <div>
                   <Image
-                    src="/../public/images/emojis/box.png"
+                    src="/Images/emojis/box.png"
                     layout="fill"
                   ></Image>
                 </div>

@@ -10,7 +10,7 @@ export default function Navbar() {
           <li>
             <div>
               <Image
-                src="/../public/images/emojis/house.png"
+                src="/Images/emojis/house.png"
                 layout="fill"
               ></Image>
             </div>
@@ -22,7 +22,7 @@ export default function Navbar() {
           <li>
             <div>
               <Image
-                src="/../public/images/emojis/student.png"
+                src="/Images/emojis/student.png"
                 layout="fill"
               ></Image>
             </div>
@@ -34,7 +34,7 @@ export default function Navbar() {
           <li>
             <div>
               <Image
-                src="/../public/images/emojis/mac.png"
+                src="/Images/emojis/mac.png"
                 layout="fill"
               ></Image>
             </div>
@@ -46,7 +46,7 @@ export default function Navbar() {
         <a className={styles.blogLi} target="_blank" href="https://medium.com/@LukeStephens">
             <div>
               <Image
-                src="/../public/images/emojis/book.png"
+                src="/Images/emojis/book.png"
                 layout="fill"
               ></Image>
             </div>
@@ -58,7 +58,7 @@ export default function Navbar() {
           <li>
             <div>
               <Image
-                src="/../public/images/emojis/box.png"
+                src="/Images/emojis/box.png"
                 layout="fill"
               ></Image>
             </div>
