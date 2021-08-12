@@ -73,3 +73,33 @@
     100%{background-position:0% 51%}
 }
 
+
+@media only screen and (max-width:500px) {
+    .aboutCon {
+        height: 800px;
+        margin-top: 70px;
+    }
+    
+    .CoverImg {
+        width: 100%;
+        height: 55%;
+    }
+
+    .about {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height: 45%;
+        width: 100%;
+
+        h1 {
+            padding: 5% 0 0 0 ;
+            font-size: 5vw;
+        }
+
+        p {
+            font-size: 2.3vw;
+        }
+    }
+
+}

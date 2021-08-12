@@ -132,3 +132,43 @@
     50%{background-position:100% 50%}
     100%{background-position:0% 51%}
 }
+
+@media only screen and (max-width:500px) {
+    .education {
+        flex-wrap: wrap-reverse;
+    }
+    
+    .imgCon {
+        height: 50%;
+        width: 100%;
+    }
+
+    .eduLeft {
+        height: 50%;
+        width: 100%;
+
+        h1 {
+            padding-top: 20px;
+            font-size: 6vw;
+        }
+
+    }
+
+
+
+    .schools {
+
+        .school {
+            h1 {
+                font-size: 3vw;
+            }
+            h2 {
+                font-size: 2vw;
+            }
+            p {
+                font-size: 2vw;
+            }
+        }
+
+    }
+}

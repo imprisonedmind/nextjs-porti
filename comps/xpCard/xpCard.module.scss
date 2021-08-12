@@ -89,3 +89,21 @@
   width: 40%;
   margin-top: 10px;
 }
+
+
+@media only screen and (max-width:500px) {
+  .xpCon {
+    h1 {
+      font-size: 3vw;
+    }
+    h2 {
+      font-size: 2vw;
+    }
+  }
+
+  .desc {
+    p {
+      font-size: 2.8vw;
+    }
+  }
+}

@@ -122,3 +122,49 @@
 #W10 {
     width: 10%;
 }
+
+
+@media only screen and (max-width:500px) {
+    .main {
+        height: 1500px;
+    }
+    
+    .skillsTitle {
+        height: 5%;
+        h1 {
+            font-size: 6vw;
+        }
+    }
+
+    .skillType {
+        flex-wrap: wrap;
+    }
+
+    .skillTypeCon {
+        display: flex;
+        justify-content: space-evenly;
+        height: 25%;
+        width: 100%;
+
+        h1 {
+            font-size: 3.5vw;
+        }
+
+        p {
+            font-size: 2vw;
+            width: 50%;
+        }
+    }
+
+    .skillTypeCon:nth-child(1) {
+        height: 15%;
+    }
+
+    .skillTypeCon:nth-child(2) {
+        height: 50%;
+    }
+
+    .skillTypeCon:nth-child(3) {
+        height: 45%;
+    }
+}
