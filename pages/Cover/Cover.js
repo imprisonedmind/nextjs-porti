@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
-import DropdownMenu from '../../comps/menu/menu.js'
+import DropdownMenu from "../../comps/menu/menu.js";
 
 import styles from "../Cover/cover.module.scss";
 import React, { useState, useEffect } from "react";
@@ -30,9 +30,7 @@ export default function Cover(props) {
           <h1>
             hi there! <span>I'm Luke.</span>{" "}
           </h1>
-          <h2>
-          A jack of all trades is a master of none, but oftentimes better than a master of one.
-          </h2>
+          <h2>A digital jack of all trades, focusing on the human experience.</h2>
           <Link href="/about/about">
             <p>you can learn more about me here.</p>
           </Link>
@@ -40,7 +38,6 @@ export default function Cover(props) {
       </div>
       {/* socials and menu */}
       <div className={styles.farRight}>
-
         <DropdownMenu></DropdownMenu>
         {/* socials */}
         <div className={styles.socialCon}>
@@ -85,5 +82,3 @@ export default function Cover(props) {
     </div>
   );
 }
-
-

@@ -41,7 +41,7 @@ export default function Footer() {
             <div id={styles.farRight} className={styles.divCon}>
                 <h1>Other </h1>
                 <ul>
-                    <Link href=""><li><p>2020 Portfolio</p></li></Link>
+                    <a target="_blank" href="https://luke-portfolio-64b54.firebaseapp.com/"><li><p>2020 Portfolio</p></li></a>
                     <Link href=""><li><p>Collected Links</p></li></Link>
                 </ul>
             </div>

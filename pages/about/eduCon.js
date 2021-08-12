@@ -16,7 +16,7 @@ export default function EduCon() {
                   <h1>Stellenbosch Academy of Design and Photography</h1>
                   <h2>South Africa, Stellenbosch. Jan 2018 - Dec 2020</h2>
                   <p>
-                    BA Visual Communications Degree. - Major in Multi Media
+                    BA Visual Communications Degree - Major in Multi Media
                     Design.
                   </p>
                 </div>

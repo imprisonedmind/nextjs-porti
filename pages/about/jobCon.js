@@ -60,7 +60,7 @@ export default function EduCon() {
         date="June 2017 - Jul 2017"
         place="Willowbridge South Africa"
         desc="Highschool Internship"
-        desc2="First job introduction into Graphic Design, where my role was to support and learn from the designer as tasks where handed down to me."
+        desc2="First job introduction into Graphic Design, where my role was to support and learn from the designer as tasks were handed down to me."
       ></XpCard>
     </div>
   );

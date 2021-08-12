@@ -2,10 +2,15 @@ import WorksCard from "../../comps/worksCard/WorksCard.js";
 import Navbar from "../../comps/nav/Navbar.js";
 import Footer from "../../pages/footer/footer.js";
 import styles from "../myWork/myWork.module.scss";
-// test
+import Head from "next/head";
+
 export default function myWork() {
   return (
     <div className={styles.main}>
+      <Head>
+        <title>Luke Stephens | My Work</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar></Navbar>
 
       <div className={styles.contentCon}>
