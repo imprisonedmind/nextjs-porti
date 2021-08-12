@@ -29,13 +29,14 @@ export default function Work() {
         ></WorkCard>
         </a>
 
-
+        <a href="https://youtu.be/VRtpQDCGSvU" target="_blank">
         <WorkCard
           img="/Images/reel.png"
           alt="Test about the image"
           logo="/Images/logos/ae.png"
           logoAlt=""
         ></WorkCard>
+        </a>
 
         <WorkCard
           img="/Images/homie.png"

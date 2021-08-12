@@ -5,23 +5,24 @@
   height: 350px;
   width: 100%;
   padding: 0% 8% 0% 8%;
-  background-color: #3E3E45;
+  background-color: #3e3e45;
+
+  .middleDiv {
+    position: relative;
+    height: 100%;
+    width: 50%;
 
 
-    .middleDiv{
-        position: relative;
-        height: 100%;
-        width: 50%;
-
-        img {
-            object-fit: contain !important;
-        }
+    img {
+      object-fit: cover !important
     }
+  }
 
-  .divCon{
+  .divCon {
     height: 100%;
     width: 33%;
     padding: 2% 2% 0 0;
+    overflow: hidden;
   }
 
   h1 {
@@ -31,16 +32,15 @@
     color: #fff;
   }
 
-
   ul {
-      padding: 0;
+    padding: 0;
   }
 
   li:hover {
-      cursor: pointer;
-      p{
-        text-decoration: underline;
-      }
+    cursor: pointer;
+    p {
+      text-decoration: underline;
+    }
   }
   li {
     list-style: none;
@@ -50,7 +50,7 @@
       font-size: 1vw;
       font-weight: normal;
       line-height: 40px;
-      width: 60%;
+      width: 100%;
       color: #fff;
       padding: 0;
       margin: 0;
@@ -60,7 +60,55 @@
   }
 }
 
-
 #farRight {
   padding: 2% 0 0 5%;
+}
+
+
+@media only screen and (max-width:1024px) {
+  .Footer {
+    height: 240px;
+    li {
+      p{
+        line-height: 30px;
+        font-size: 1.2vw;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width:768px) {
+  .middleDiv {
+    display: none;
+  }
+
+  .Footer {
+    padding: 0 5% 0 5%;
+    h1 {
+      font-size: 2vw;
+    }
+    li {
+      p {
+        width: 100%;
+        font-size: 1.8vw;
+      }
+    }
+
+  }
+}
+
+@media only screen and (max-width:425px) {
+  .Footer {
+    height: 150px;
+    h1 {
+      font-size: 3vw;
+    }
+    li {
+      p{
+        line-height: 18px;
+        font-size: 2vw;
+      }
+    }
+  }
 }

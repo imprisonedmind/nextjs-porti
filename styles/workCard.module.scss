@@ -1,9 +1,9 @@
 .cardCon {
     display: flex;
     position: relative;
-    height: 550px;
-    width: 500px;
-    margin-bottom: 100px;
+    height: 600px;
+    width: 29vw;
+    margin-bottom: 80px;
     border-radius: 15px;
     overflow: hidden;
     transition: 0.3s ease-in-out;
@@ -52,4 +52,17 @@
     50%{background-position:100% 50%}
     100%{background-position:0% 51%}
   }
+
+  @media only screen and (max-width:1024px) {
+      .cardCon {
+          width: 40vw;
+          height: 500px;
+      }
+  }
+
+  @media only screen and (max-width:425px) {
+    .cardCon {
+        width: 400px;
+    }
+}
 

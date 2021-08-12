@@ -128,4 +128,51 @@
   }
 }
 
+@media only screen and (max-width:1024px) {
+  .headerCon {
+    h1 {
+      font-size: 3vw;
+    }
+    p {
+      font-size: 2vw;
+    }
+  }
 
+  .workCardCon {
+    padding: 5%;
+  }
+
+  .discoverCon {
+    h1 {
+      font-size: 1vw;
+    }
+    p {
+      font-size: 2vw;
+    }
+  }
+
+}
+
+
+@media only screen and (max-width:425px) {
+  .headerCon {
+    h1 {
+      height: auto;
+      font-size: 5vw;
+    }
+    p {
+      height: auto;
+      padding-top: 10px;
+      font-size: 4vw;
+    }
+  }
+
+  .discoverCon {
+    h1 {
+      font-size: 2vw;
+    }
+    p {
+      font-size: 5vw;
+    }
+  }
+}

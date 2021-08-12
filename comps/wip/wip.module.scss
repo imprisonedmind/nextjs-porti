@@ -53,3 +53,24 @@
 .wipClose {
     display: none;
 }
+
+@media only screen and (max-width:1024px) {
+    .wipCon {
+        h1 {
+            font-size: 1.2vw;
+        }
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .wipCon {
+        padding: 0;
+        h1 {
+            font-size: 3vw;
+        }
+
+        p {
+            font-size: 2vw;
+        }
+    }
+}

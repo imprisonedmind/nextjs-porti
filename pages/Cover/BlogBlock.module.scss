@@ -5,7 +5,7 @@
   height: 700px;
   width: 100%;
   max-width: 1920px;
-  padding: 5% 15% 5% 15%;
+  padding: 5% 18% 5% 18%;
   border-bottom: 1px solid rgba(22, 21, 21, 0.027);
 }
 
@@ -50,7 +50,7 @@
 
   p {
     width: 8vw;
-    font-size: 1.1vw;
+    font-size: 1.15vw;
     border-bottom: 0.5px solid rgba(110, 110, 116, 0.25);
     color: rgba(110, 110, 116, 0.25);
     transition: 0.3s ease-in-out;
@@ -84,4 +84,61 @@
   0%{background-position:0% 51%}
   50%{background-position:100% 50%}
   100%{background-position:0% 51%}
+}
+
+@media only screen and (max-width:1024px) {
+  .main {
+    padding: 10%;
+  }
+
+  .blogCon {
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  .imgCon {
+    height: 45%;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .textCon {
+    height: 55%;
+    width: 100%;
+    padding: 2% 5% 2% 5%;
+
+    h2 {
+      font-size: 1.8vw;
+    }
+
+    p {
+      width: 15vw;
+      font-size: 2vw;
+    }
+  }
+}
+
+@media only screen and (max-width:425px) {
+  .main {
+    height: 500px;
+    padding: 5%;
+  }
+
+  .textCon {
+    padding: 5%;
+
+    h1 {
+      font-size: 4vw;
+    }
+
+    h2 {
+      font-size: 3vw;
+      line-height: 20px;
+    }
+
+    p {
+      font-size: 3vw;
+      width: 20vw;
+    }
+  }
 }
