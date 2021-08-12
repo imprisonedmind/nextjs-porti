@@ -55,14 +55,16 @@
 
   @media only screen and (max-width:1024px) {
       .cardCon {
-          width: 40vw;
-          height: 500px;
+          width: 35vw;
+          height: 400px;
       }
   }
 
   @media only screen and (max-width:500px) {
     .cardCon {
-        width: 400px;
+        height: 300px;
+        width: 40vw;
+        margin-bottom: 20px;
     }
 }
 
