@@ -39,7 +39,7 @@
   li:hover {
       cursor: pointer;
       p{
-           
+        text-decoration: underline;
       }
   }
   li {
@@ -47,7 +47,7 @@
 
     p {
       font-family: SofiaPro;
-      font-size: 1.1vw;
+      font-size: 1vw;
       font-weight: normal;
       line-height: 40px;
       width: 60%;

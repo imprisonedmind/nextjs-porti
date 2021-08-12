@@ -9,6 +9,7 @@ export default function myWork() {
     <div className={styles.main}>
       <Head>
         <title>Luke Stephens | My Work</title>
+        <link rel="shortcut icon" href="/Images/emojis/mac.png"/>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Navbar></Navbar>

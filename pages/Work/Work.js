@@ -31,9 +31,9 @@ export default function Work() {
 
 
         <WorkCard
-          img="/Images/screenshot.jpg"
+          img="/Images/reel.png"
           alt="Test about the image"
-          logo="/Images/logos/xd.png"
+          logo="/Images/logos/ae.png"
           logoAlt=""
         ></WorkCard>
 

@@ -12,6 +12,7 @@ export default function About() {
     <div className={styles.main}>
       <Head>
         <title>Luke Stephens | About</title>
+        <link rel="shortcut icon" href="/Images/emojis/student.png"/>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Navbar></Navbar>

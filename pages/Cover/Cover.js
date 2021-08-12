@@ -11,6 +11,7 @@ export default function Cover(props) {
     <div className={styles.Main}>
       <Head>
         <title>Luke Stephens | Portfolio</title>
+        <link rel="shortcut icon" href="/Images/emojis/house.png"/>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       {/* left cover con */}
