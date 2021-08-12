@@ -62,13 +62,14 @@
   p{
     width: 19vw;
     font-size: 1.15vw;
-    border-bottom: 0.5px solid rgba($color: #6E6E74, $alpha: 0.25);
-    color: rgba($color: #6E6E74, $alpha: 0.25);
+    border-bottom: 0.5px solid #6e6e74c4;
+    color: #6e6e74c4;
     transition: 0.3s ease-in-out;
   }
   p:hover {
     cursor: pointer;
     color: #8C50CE;
+    border-bottom: 0.5px solid #8C50CE;
   }
 }
 
