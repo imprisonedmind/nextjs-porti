@@ -1,9 +1,15 @@
+.navCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .navMain {
     position: fixed;
     top: 20px;
     height: 60px;
     width: 30%;
-    max-width: 1920px;
     margin: auto;
     border-radius: 30px;
     background-color: #fff  ;
